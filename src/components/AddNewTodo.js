@@ -14,7 +14,7 @@ export default function AddNewTodo(props) {
           Add a new todo:
           <input value={todo} onChange={handleChange} type="text" />
         </label>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Add ToDo" />
       </form>
       <p>
         <br />
