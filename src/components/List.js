@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function List(props) {
     // console.log("the props todolist from todolist.js", props.TodoList);
     return (
-        <div>
+        <section>
           <h2>My todos</h2>
           <ul>
             {props.todoList.map((item, index) => (
-              <li key={index}>
+              <li key={index} onClick={() => props.removeTodo(index)}>
                 {item}
               </li>
             ))}
           </ul>
-        </div>
+        </section>
       );
 }
