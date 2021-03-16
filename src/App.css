@@ -1,7 +1,14 @@
 .flex--column {
   flex-direction: column;
+}
+.flex--align-center {
   align-items: center;
 }
+.text--light-grey {
+  color: #999;
+}
+
+
 
 /* .App {
   text-align: center;
