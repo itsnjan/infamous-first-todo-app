@@ -1,4 +1,3 @@
-import logo from './logo.svg'
 import './App.css'
 import React, { useState } from 'react'
 import AddNewTodo from './components/AddNewTodo'
@@ -29,7 +28,7 @@ function App() {
     )
     },
     setArchiveList((prev) =>
-    ['test', ...prev]
+    [todoList[removeTodoIndex], ...prev]
     )
   ) 
   }
